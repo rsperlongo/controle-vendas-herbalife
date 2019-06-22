@@ -15,13 +15,15 @@ import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatCardModule} from '@angular/material/card';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
     SidenavComponent,
-    HeaderComponent
+    HeaderComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,

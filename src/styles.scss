@@ -6,3 +6,16 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+//utilities
+.card {
+  border-radius: 0;
+  color: #AAB5BC;
+}
+.jumbotron {
+  background-color: #e9ecf3;
+  padding: 20px;
+}
+.btn {
+  border-radius: 0;
+}
