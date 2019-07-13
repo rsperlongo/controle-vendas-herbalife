@@ -19,6 +19,12 @@ import { ResumeComponent } from './resume/resume.component';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatListModule} from '@angular/material/list';
+
+
+
 
 
 
@@ -42,7 +48,10 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatCardModule,
     MatMenuModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatExpansionModule,
+    MatDividerModule,
+    MatListModule
   ],
   exports: [
     MatFormFieldModule,
@@ -52,7 +61,10 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatCardModule,
     MatMenuModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatExpansionModule,
+    MatDividerModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

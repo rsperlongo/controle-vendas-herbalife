@@ -14,6 +14,37 @@
   <div class="mt-2"></div>
   <mat-card>
     <h3 class="category-title">Categorias</h3>
+    <hr>
+    <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Shakes
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <mat-list>
+              <mat-selection-list #shake>
+                  <mat-list-option *ngFor="let shake of TypeofShakes">
+                    {{shake}}
+                  </mat-list-option>
+                </mat-selection-list>
+            </mat-list>
+        </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Bebidas
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <mat-selection-list #drinks>
+            <mat-list-option *ngFor="let drinks of TypeofDrinks">
+               {{ drinks }}
+            </mat-list-option>
+
+          </mat-selection-list>
+        </mat-expansion-panel>
+      </mat-accordion>
 
   </mat-card>
 
