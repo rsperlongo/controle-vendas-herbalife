@@ -1,7 +1,36 @@
-<nav class="navbar navbar-light bg-success">
-  <a class="navbar-brand text-light">SISTEMA DE CONTROLE DE VENDAS - HERBALIFE</a>
+<!-- <nav class="navbar navbar-light bg-success">
+  <a class="navbar-brand text-light">HERBALIFE SALES</a>
+
   <form class="form-inline">
     <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
     <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
   </form>
-</nav>
+</nav> -->
+<mat-toolbar color="primary">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <span>HERBAL SYSTEM MANAGEMENT</span>
+        </div>
+        <div class="col-md-8">
+            <button mat-button [matMenuTriggerFor]="menu">Clientes</button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item>Listagem</button>
+              <button mat-menu-item>Pedidos</button>
+            </mat-menu>
+
+            <button mat-button [matMenuTriggerFor]="menu">Produtos</button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item>Estoque</button>
+              <button mat-menu-item>Categorias</button>
+            </mat-menu>
+
+            <button mat-button [matMenuTriggerFor]="menu">Financeiro</button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item>Receita</button>
+              <button mat-menu-item>Lucro</button>
+            </mat-menu>
+        </div>
+    </div>
+  </div>
+</mat-toolbar>

@@ -6,6 +6,11 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+// patterns
+$green: #7ac143;
+
+
+
 
 //utilities
 .card {
@@ -19,3 +24,5 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .btn {
   border-radius: 0;
 }
+
+

@@ -16,6 +16,12 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatCardModule} from '@angular/material/card';
 import { ResumeComponent } from './resume/resume.component';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatButtonModule} from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
+
+
 
 @NgModule({
   declarations: [
@@ -33,14 +39,20 @@ import { ResumeComponent } from './resume/resume.component';
     MatIconModule,
     MatInputModule,
     MatSidenavModule,
-    MatCardModule
+    MatCardModule,
+    MatMenuModule,
+    MatButtonModule,
+    MatToolbarModule
   ],
   exports: [
     MatFormFieldModule,
     MatIconModule,
     MatInputModule,
     MatSidenavModule,
-    MatCardModule
+    MatCardModule,
+    MatMenuModule,
+    MatButtonModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

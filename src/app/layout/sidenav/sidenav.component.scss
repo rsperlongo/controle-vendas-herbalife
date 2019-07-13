@@ -1,0 +1,18 @@
+@import './src/styles.scss';
+
+.profile-name {
+  font-size: 20px;
+  color: $green;
+  font-weight: 700;
+
+}
+.category-title {
+  font-size: 16px;
+  color: $green;
+}
+.profile-evs {
+  font-size: 12px;
+}
+.icon-display {
+  transform: scale(1.5);
+}
