@@ -22,6 +22,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
+import { FooterComponent } from './layout/footer/footer.component';
 
 
 
@@ -35,7 +36,8 @@ import {MatListModule} from '@angular/material/list';
     ProductsComponent,
     SidenavComponent,
     HeaderComponent,
-    ResumeComponent
+    ResumeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
