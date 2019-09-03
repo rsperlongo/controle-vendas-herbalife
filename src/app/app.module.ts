@@ -23,11 +23,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
 import { FooterComponent } from './layout/footer/footer.component';
-
-
-
-
-
+import { ShakesComponent } from './shakes/shakes.component';
+import { DrinksComponent } from './drinks/drinks.component';
 
 
 @NgModule({
@@ -37,7 +34,9 @@ import { FooterComponent } from './layout/footer/footer.component';
     SidenavComponent,
     HeaderComponent,
     ResumeComponent,
-    FooterComponent
+    FooterComponent,
+    ShakesComponent,
+    DrinksComponent
   ],
   imports: [
     BrowserModule,
