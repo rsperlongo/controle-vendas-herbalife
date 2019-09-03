@@ -7,9 +7,8 @@ const routes: Routes = [
     loadChildren: () => import('./shakes/shakes.module').then(mod => mod.ShakesModule)
   },
   {
-    path: '',
-    redirectTo: '',
-    pathMatch: 'full'
+    path: 'drinks',
+    loadChildren: () => import('./drinks/drinks.module').then(mod => mod.DrinksModule)
   }
 ];
 

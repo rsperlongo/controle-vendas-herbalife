@@ -24,6 +24,8 @@ import {MatListModule} from '@angular/material/list';
 import { FooterComponent } from './layout/footer/footer.component';
 import { ShakesComponent } from './shakes/shakes.component';
 import { DrinksComponent } from './drinks/drinks.component';
+import { ClientsComponent } from './clients/clients.component';
+import { ClientsDetailComponent } from './clients/clients-detail/clients-detail.component';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { DrinksComponent } from './drinks/drinks.component';
     ResumeComponent,
     FooterComponent,
     ShakesComponent,
-    DrinksComponent
+    DrinksComponent,
+    ClientsComponent,
+    ClientsDetailComponent
   ],
   imports: [
     BrowserModule,
