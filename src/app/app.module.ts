@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import { ProductsComponent } from './products/products.component';
 import { SidenavComponent } from './layout/sidenav/sidenav.component';
 import { HeaderComponent } from './layout/header/header.component';
 
@@ -30,7 +29,6 @@ import { DrinksComponent } from './drinks/drinks.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ProductsComponent,
     SidenavComponent,
     HeaderComponent,
     ResumeComponent,

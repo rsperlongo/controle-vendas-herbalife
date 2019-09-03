@@ -9,6 +9,6 @@ import { ShakesDetailComponent } from './shakes-detail/shakes-detail.component';
   imports: [
     CommonModule,
     ShakesRoutingModule
-  ]
+  ],
 })
 export class ShakesModule { }
